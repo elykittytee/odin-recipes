@@ -11,7 +11,7 @@ div.flex-stuff {
   border: 4px solid Gray;
   
   display:flex;
-  align-items: center;
+  align-items: top;
   justify-content: center;
 }
 
