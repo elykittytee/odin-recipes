@@ -5,3 +5,13 @@ body {
 h1, h2, h3 {
   background-color:white;
 }
+
+div.flex-stuff {
+  padding: 20px auto;
+  border: 4px solid Gray;
+  display:flex
+}
+
+div.flex-item {
+  justify-content: space-around;
+}
