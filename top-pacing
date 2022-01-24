@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>insertwittytitlehere</title>  
+		<link rel="stylesheet" href="#">
+	</head>
+
+	<body>
+		<a href="index.html>Go back.</a>
+
+		<h1>HTML Foundations</h1>
+		<h2>Project: Recipes</h2>
+		<p><strong>Task:</strong> Create an index page and recipe pages. Use relative URLs to link the pages together.</p>
+		<ul>
+
+			<li><a href="odin-recipes/coffee.html">Coffee w/ Drip Machine</a></li>
+			<li><a href="odin-recipes/lecheflan.html">Leche Flan</a></li>
+		</ul>
+
+		<p>Completion Notes: Project website shell created with HTML.</p>
+
+		<hr/>
+		<h1>CSS Foundations</h1>
+		<h2>Project: none</h2>
+		<p><strong>Task:</strong> Complete CSS Foundations exercises on the repository using the recipe pages as the HTML backbone.</p>
+
+		<p>Completion Notes: Added CSS stylesheet.</p>
+
+		<hr/>
+		<h1>Flex Box</h1>
+		<h2>Project: <a href="flex-practice/flex.html">Landing Page</a></h2>
+		<p><strong>Task:</strong> Using what you've learned, recreate the webpage design from the provided image.</p>
+		<p><strong>Notes:</strong>Created a webpage loosely based on Kingdom Hearts. All images are not in the github.io version and are instead saved locally to avoid copyright infringement</p>
+
+		<hr/>
+		<h1>Javascript Basics</h1>
+		<h2>Project: Rock Paper Scissors</h2>
+		<p><strong>Task:</strong> TBD</p>
+
+		<h2>Project: Etch-a-Sketch</h2>
+		<p><strong>Task:</strong> TBD</p>
+
+		<h2>Project: Calculator</h2>
+		<p><strong>Task:</strong> TBD</p>
+
+		<hr/>
+		<h1>The Back End</h1>
+		<h2>Project: Nones</h2>
+		<p><strong>Task:</strong> none</p>
+
+		<hr/>
+		<h1>Conclusion</h1>
+		<h2>Final Notess</h2>
+		<p><strong>Task:</strong> none</p>
+	</body>
+</html>
