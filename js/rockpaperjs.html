@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>witty js here</title>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" type="text/css" href="rockpaperstyle.css">
+  </head>
+  <body>
+    <div class="content">
+
+      <!-- game intro -->
+      <h1>Rock Paper Scissors!</h1>
+      <p>This game requires the use of the Developer's Console of your browser.</p>
+      <ol>
+        <li>Play the game by pressing <strong>Play!</strong></li>
+        <li>This game does not keep score</li>
+        <li>To replay: press <strong>Play!</strong> again.</li>
+      </ol>
+      <div class="button-flex"><button class="start" onclick="start()"><div>Play!</div></button></div>
+    
+      <!-- game results -->
+      <table>
+        <tr>
+
+          <th>You chose:</th>
+          <th>The Computer chose:</th>
+        </tr>
+        <tr>
+          <td>
+            <p id="playerResults">---</p>
+          </td>
+          <td>
+            <p id="compResults">---</p>
+          </td>
+        </tr>
+      </table>
+
+      <h3 id="results">---</h3>
+
+    </div>
+
+    <script src="javscript.js"></script>
+  </body>
+</html>
