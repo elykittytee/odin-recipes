@@ -37,10 +37,10 @@
 
 		<hr/>
 		<h1>Javascript Basics</h1>
-		<h2>Project: <a href="js-practice.html">Rock Paper Scissors -- Console Version</a></h2>
+		<h2>Project: <a href="js/js-practice.html">Rock Paper Scissors -- Console Version</a></h2>
 		<p><strong>Task:</strong> Create a rock paper scissors game using Javascript. This game is played by interacting with the developers console.</p>
 
-		<h2>Project: <a href="rockpaper.html">Rock Paper Scissors -- Button Version</a></h2>
+		<h2>Project: <a href="js/rockpaper.html">Rock Paper Scissors -- Button Version</a></h2>
 		<p><strong>Task:</strong> Create a rock paper scissors game using Javascript. This game is played by interacting with the developers console.</p>
 
 		<h2>Project: Etch-a-Sketch</h2>
