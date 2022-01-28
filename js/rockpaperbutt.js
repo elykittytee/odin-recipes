@@ -46,7 +46,7 @@ function playPaper(computer, player){
 
 //play SCISSORS
 function playScissors(computer, player){
-	player = getRock();
+	player = getScissors();
 	computer = computerPlay(); 
 	console.log("Player chose SCISSORS");
 
