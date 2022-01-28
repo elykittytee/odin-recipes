@@ -1,3 +1,5 @@
+/* used in both rockpaperbutton and rockpaperjs */
+
 .content {
   background-color: Navy;
   width: 60%;
@@ -20,8 +22,10 @@ ol li {
 }
 
 .button-flex {
+  width: 50%;
+  margin:  20px auto 10px;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 button.start  div{
