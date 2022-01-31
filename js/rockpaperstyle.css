@@ -63,6 +63,7 @@ p#playerResults, p#compResults {
 
 h3 {
   color:  White;
+  background-color:dimgray;
   text-align: center;
   padding: 20px 0 30px;
   margin: 0 auto;
