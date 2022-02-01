@@ -34,8 +34,24 @@ ol li {
   justify-content: space-around;
 }
 
+.button-flex button {
+  background-color: gray;
+  color: white;
+
+  border-radius: 50px;
+  border: 5px outset dimgray;
+
+  text-align: center;
+  padding: 10px 20px;
+  margin:  0 auto;
+}
+
+.button-flex button:active { /* when i press the button O_o */
+  border: 5px inset gray;
+}
+
 button.start  div{
-  background-color: black;
+  background-color: gray;
   color: white;
   text-align: center;
   padding: 10px 20px;
@@ -63,7 +79,7 @@ p#playerResults, p#compResults {
 
 h3 {
   color:  White;
-  background-color:dimgray;
+  background-color: dimgray;
   text-align: center;
   padding: 20px 0 30px;
   margin: 0 auto;
