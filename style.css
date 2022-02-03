@@ -1,0 +1,19 @@
+div.content {
+  background-color:AliceBlue;
+  width: 50em;
+
+  border-radius:20px;
+  /* border: 5px solid Gainsboro; */
+
+  padding:5px 15px;
+  margin: 10px auto;
+}
+
+table {
+  margin: 0 auto;
+}
+
+td.tableLinks {
+  text-align:center;
+  padding: 1em;
+}
