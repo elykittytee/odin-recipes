@@ -1,0 +1,63 @@
+#choice {
+  width: 5em;
+  height:  3em;
+}
+
+#content {
+  background-color:Lavender;
+  width: 50em;
+
+  border-radius:20px;
+  /* border: 5px solid Gainsboro; */
+
+  padding:5px 15px;
+  margin: 10px auto;
+}
+
+div.buttons{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 40em;
+  margin:  0 auto;
+}
+
+button {
+  margin: .3em;
+}
+
+div p#choice {
+  background-color: White;
+  font-size:  1em;
+  text-align: center;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width:  10em;
+  margin: 0 auto;
+}
+
+.wtype, .stype, .noEffect {
+  text-align: center;
+  margin: 1em auto;
+}
+
+th{
+  background-color: White;
+  width: 12em;
+
+  border-radius: 5px;
+}
+
+
+li.btn-poke {
+  display:  inline-block;
+  list-style-type: none;
+}
+
+table {
+  height: 2em;
+  margin: 1em auto;
+}
