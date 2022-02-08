@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>replit</title>
+    <link href="pokestyle.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <h1>Hello world</h1>
+    <div id="content">      
+        <h3>Choose the Attacking Type</h3>
+        <div class="buttons">
+          <div class="btn-poke"><button id="norm" onClick="atkNorm()">Normal</button></div>
+          <div class="btn-poke"><button id="fire" onClick="atkFire()">Fire</button></div>
+          <div class="btn-poke"><button id="water" onClick="atkWater()">Water</button></div>
+          <div class="btn-poke"><button id="grass" onClick="atkGrass()">Grass</button></div>
+
+          <div class="btn-poke"><button id="elec" onClick="atkElec()">Electric</button></div>
+          <div class="btn-poke"><button id="ice" onClick="atkIce()">Ice</button></div>
+          <div class="btn-poke"><button id="fight" onClick="atkFight()">Fighting</button></div>
+          <div class="btn-poke"><button id="pois" onClick="atkPois()">Poison</button></div>
+          <div class="btn-poke"><button id="grnd" onClick="atkGrnd()">Ground</button></div>
+        </div>
+        <div class="buttons">
+          <div class="btn-poke"><button id="fly" onClick="atkFly()">Flying</button></div>
+          <div class="btn-poke"><button id="psych" onClick="atkPsych()">Psychic</button></div>
+          <div class="btn-poke"><button id="bug" onClick="atkBug()">Bug</button></div>
+          <div class="btn-poke"><button id="rck" onClick="atkRck()">Rock</button></div>
+          <div class="btn-poke"><button id="ghst" onClick="atkGhst()">Ghost</button></div>
+          <div class="btn-poke"><button id="drag" onClick="atkDrag()">Dragon</button></div>
+          <div class="btn-poke"><button id="drk" onClick="atkDrk()">Dark</button></div>
+
+          <div class="btn-poke"><button id="fairy" onClick="atkSteel()">Steel</button></div>
+          <div class="btn-poke"><button id="steel" onClick="atkFairy()">Fairy</button></div>      
+      </div>
+      
+      <div>
+        <p id="choice"></p>
+      </div>
+      
+      <table id="typechart">
+        <tr>
+          <th>Strong Against:</th>
+          <th>Weak Against:</th>
+          <th>No Effect:</th>
+        </tr>
+        <tr>
+          <td>
+              <div id="sNorm" class="stype">Normal</div>
+              <div id="sFire" class="stype">Fire</div>
+              <div id="sWater" class="stype">Water</div>
+              <div id="sGrass" class="stype">Grass</div>
+              <div id="sElec" class="stype">Electric</div>
+              <div id="sIce" class="stype">Ice</div>
+              <div id="sFight" class="stype">Fighting</div>
+              <div id="sPois" class="stype">Poison</div>
+              <div id="sGrnd" class="stype">Ground</div>
+              <div id="sFly" class="stype">Flying</div>
+              <div id="sPsych" class="stype">Psychic</div>
+              <div id="sBug" class="stype">Bug</div>
+              <div id="sRck" class="stype">Rock</div>
+              <div id="sGhst" class="stype">Ghost</div>
+              <div id="sDrag" class="stype">Dragon</div>
+              <div id="sDrk" class="stype">Dark</div>
+              <div id="sSteel" class="stype">Steel</div>
+              <div id="sFairy" class="stype">Fairy</div>
+          </td>
+          <td>
+              <div id="wNorm" class="wtype">Normal</div>
+              <div id="wFire" class="wtype">Fire</div>
+              <div id="wWater" class="wtype">Water</div>
+              <div id="wGrass" class="wtype">Grass</div>
+              <div id="wElectric" class="wtype">Electric</div>
+              <div id="wIce" class="wtype">Ice</div>
+              <div id="wFight" class="wtype">Fighting</div>
+              <div id="wPois" class="wtype">Poison</div>
+              <div id="wGrnd" class="wtype">Ground</div>
+              <div id="wFly" class="wtype">Flying</div>
+              <div id="wPsych" class="wtype">Psychic</div>
+              <div id="wBug" class="wtype">Bug</div>
+              <div id="wRck" class="wtype">Rock</div>
+              <div id="wGhst" class="wtype">Ghost</div>
+              <div id="wDrag" class="wtype">Dragon</div>
+              <div id="wDrk" class="wtype">Dark</div>
+              <div id="wSteel" class="wtype">Steel</div>
+              <div id="wFairy" class="wtype">Fairy</div>
+          </td>
+          <td>
+            <p class="noEffect"></p>
+          </td>          
+        </tr>
+      </table>
+    </div>
+
+    <script src="poketype.js"></script>
+  </body>
+</html>
