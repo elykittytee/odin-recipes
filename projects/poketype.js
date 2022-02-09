@@ -3,6 +3,9 @@ hideAllTypes();
 
 
 function atkNorm() {
+  //hide all 
+  hideAllTypes(); 
+
   //var fairy = document.getElementById("fairy");
 
   //You chose Fairy!
@@ -10,8 +13,6 @@ function atkNorm() {
   choice.textContent = "Normal";
   choice.style.color = 'black';
   choice.style.background = 'gainsboro';
-  //hide all 
-  hideAllTypes(); 
 
   //show strong
   //nothing. it weak
@@ -29,6 +30,9 @@ function atkNorm() {
 }
 
 function atkFire() {
+  //hide all 
+  hideAllTypes(); 
+
   //var fairy = document.getElementById("fairy");
 
   //You chose Fire!
@@ -36,9 +40,6 @@ function atkFire() {
   choice.textContent = "Fire";
   choice.style.color = 'MistyRose';
   choice.style.background = 'OrangeRed';
-
-  //hide all 
-  hideAllTypes(); 
 
   //show strong
   //grass, ice, bug
@@ -69,6 +70,8 @@ function atkFire() {
 }
 
 function atkWater() {
+  //hide all 
+  hideAllTypes(); 
 
   //You chose Water!
   var choice = document.getElementById('choice');
@@ -76,8 +79,6 @@ function atkWater() {
   choice.style.background = 'LightSkyBlue';
   choice.style.color = 'Black';
 
-  //hide all 
-  hideAllTypes(); 
 
   //show strong
   //fire, grnd, rck
@@ -104,13 +105,13 @@ function atkWater() {
 }
 
 function atkGrass(){
+  //hide all 
+  hideAllTypes(); 
+
   var choice = document.getElementById('choice');
   choice.textContent = "Grass";
   choice.style.background = 'ForestGreen';
   choice.style.color = 'White';
-
-  //hide all 
-  hideAllTypes(); 
 
   //show strong
   //water, grnd, rck
@@ -146,13 +147,13 @@ function atkGrass(){
 }
 
 function atkElec(){
+  //hide all 
+  hideAllTypes(); 
+
   var choice = document.getElementById('choice');
   choice.textContent = "Electric";
   choice.style.background = 'Gold';
   choice.style.color = 'Black';
-
-  //hide all 
-  hideAllTypes(); 
 
   //show strong
   //water, flying
@@ -185,13 +186,13 @@ function atkElec(){
 }
 
 function atkIce() {
+  //hide all 
+  hideAllTypes(); 
+
   var choice = document.getElementById('choice');
   choice.textContent = "Ice";
   choice.style.background = 'AliceBlue';
   choice.style.color = 'Black';
-
-  //hide all 
-  hideAllTypes(); 
 
   //show strong
   //grass, ground, fly, dragon
@@ -223,13 +224,13 @@ function atkIce() {
 }
 
 function atkFight(){
+  //hide all 
+  hideAllTypes(); 
+
   var choice = document.getElementById('choice');
   choice.textContent = "Fighting";
   choice.style.background = 'DarkRed';
   choice.style.color = 'White';
-
-  //hide all 
-  hideAllTypes(); 
 
   //show strong
   //norm, ice, rock, dark, steel
@@ -269,13 +270,13 @@ function atkFight(){
 }
 
 function atkPois(){
+  //hide all 
+  hideAllTypes(); 
+
   var choice = document.getElementById('choice');
   choice.textContent = "Poison";
   choice.style.background = 'Indigo';
   choice.style.color = 'White';
-
-  //hide all 
-  hideAllTypes(); 
 
   //show strong
   //grass, fairy
@@ -306,13 +307,13 @@ function atkPois(){
 }
 
 function atkGrnd() {
+  //hide all 
+  hideAllTypes(); 
+
   var choice = document.getElementById('choice');
   choice.textContent = "Ground";
   choice.style.background = 'DarkKhaki';
   choice.style.color = 'Black';
-
-  //hide all 
-  hideAllTypes(); 
 
   //show strong
   //Fire, electric, poison, rock, steel    
@@ -344,13 +345,13 @@ function atkGrnd() {
 }
 
 function atkFly(){
+  //hide all 
+  hideAllTypes(); 
+
   var choice = document.getElementById('choice');
   choice.textContent = "Flying";
   choice.style.background = 'PaleTurquoise';
   choice.style.color = 'Black';
-
-  //hide all 
-  hideAllTypes(); 
 
   //show strong
   //grass, fighting, bug  
@@ -377,13 +378,13 @@ function atkFly(){
 }
 
 function atkPsych(){
+  //hide all 
+  hideAllTypes(); 
+
   var choice = document.getElementById('choice');
   choice.textContent = "Psychic";
   choice.style.background = 'Fuchsia';
   choice.style.color = 'White';
-
-  //hide all 
-  hideAllTypes(); 
 
   //show strong
   //fight, poison
@@ -408,13 +409,14 @@ function atkPsych(){
 }
 
 function atkBug() {
+  //hide all 
+  hideAllTypes(); 
+
   var choice = document.getElementById('choice');
   choice.textContent = "Bug";
   choice.style.background = 'Olive';
   choice.style.color = 'White';
 
-  //hide all 
-  hideAllTypes(); 
 
   //show strong
   //grass, psych, dark  
@@ -450,13 +452,14 @@ function atkBug() {
 }
 
 function atkRck(){
+  //hide all 
+  hideAllTypes(); 
+
   var choice = document.getElementById('choice');
   choice.textContent = "Rock";
   choice.style.background = 'Sienna';
   choice.style.color = 'White';
 
-  //hide all 
-  hideAllTypes(); 
 
   //show strong
   //fire, fight, fly, bug  
@@ -485,13 +488,14 @@ function atkRck(){
 }
 
 function atkGhst(){
+  //hide all 
+  hideAllTypes(); 
+
   var choice = document.getElementById('choice');
   choice.textContent = "Ghost";
   choice.style.background = 'MediumPurple';
   choice.style.color = 'White';
 
-  //hide all 
-  hideAllTypes(); 
 
   //show strong
   //psych, ghost  
@@ -515,13 +519,13 @@ function atkGhst(){
 }
 
 function atkDrag() {
+  //hide all 
+  hideAllTypes();
+
   var choice = document.getElementById('choice');
   choice.textContent = "Dragon";
   choice.style.background = 'SteelBlue';
   choice.style.color = 'White';
-
-  //hide all 
-  hideAllTypes(); 
 
   //show strong
   //dragon  
@@ -543,13 +547,14 @@ function atkDrag() {
 }
 
 function atkDrk(){
+  //hide all 
+  hideAllTypes(); 
+
   var choice = document.getElementById('choice');
   choice.textContent = "Dark";
   choice.style.background = 'DimGray';
   choice.style.color = 'White';
 
-  //hide all 
-  hideAllTypes(); 
 
   //show strong
   //psych, ghost
@@ -577,14 +582,15 @@ function atkDrk(){
 function atkSteel() {
   //var steel = document.getElementById("steel");
 
+  //hide all 
+  hideAllTypes();
+
   //You chose Fairy!
   var choice = document.getElementById('choice');
   choice.textContent = "Steel";
   choice.style.background = 'Silver';
   choice.style.color = 'Black';
 
-  //hide all 
-  hideAllTypes();
 
   //show strong
   var ice = document.getElementById('sIce');
@@ -612,14 +618,15 @@ function atkSteel() {
 function atkFairy() {
   //var fairy = document.getElementById("fairy");
 
+  //hide all 
+  hideAllTypes(); 
+
   //You chose Fairy!
   var choice = document.getElementById('choice');
   choice.textContent = "Fairy";
   choice.style.background = 'HotPink';
   choice.style.color = 'White';
 
-  //hide all 
-  hideAllTypes(); 
 
   //show strong
   //fight, dragon, dark
@@ -645,23 +652,27 @@ function atkFairy() {
 
 
 function hideAllTypes(){
-  //let strong = document.querySelectorAll("stype");
-  //let weak = document.querySelectorAll("sweak");
-  //strong.style.display="None";
-  //weak.style.display="None";
+  
+  //clear choice
+  var choice = document.getElementById('choice');
+  choice.textContent = " ";
+  choice.style.background = 'White';
 
+  //clear noeffect column
   var noEffect = document.getElementsByClassName("noEffect"); 
   //returns an array
   for (var i=0;i<noEffect.length;i+=1){
     noEffect[i].style.display = 'none';
   }
 
+  //clear strong column
   var strong = document.getElementsByClassName("stype"); 
   //returns an array
   for (var i=0;i<strong.length;i+=1){
     strong[i].style.display = 'none';
   }
 
+  //clear weak column
   var weak = document.getElementsByClassName("wtype");
   //returns an array
   for (var i=0;i<weak.length;i+=1){
