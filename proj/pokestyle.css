@@ -24,6 +24,9 @@ div.buttons{
 
 button {
   margin: .3em;
+
+  width: 4.4em;
+  height:3.2em;
 }
 
 div p#choice {
