@@ -28,8 +28,15 @@ div.buttons{
 button {
   margin: .3em;
 
+  border-radius: 10px;
+
   width: 4.4em;
   height:3.2em;
+}
+
+button#clear{
+  height: 2em;
+  margin: 0 auto;
 }
 
 button#norm{
