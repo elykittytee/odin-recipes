@@ -1,3 +1,15 @@
+#contentProj {
+  background-color:Lavender;
+  width: 50em;
+
+  border-radius:20px;
+  /* border: 5px solid Gainsboro; */
+
+  padding:5px 15px;
+  margin: 10px auto;
+}
+
+
 div.content {
   background-color:AliceBlue;
   width: 50em;
@@ -9,11 +21,18 @@ div.content {
   margin: 10px auto;
 }
 
-table {
-  margin: 0 auto;
-}
+#contentProj table td.tableLinks {
+  background-color: White;
 
-td.tableLinks {
   text-align:center;
   padding: 1em;
+  border-radius:3px;
+}
+
+#contentProj table td.tableLinks:hover {
+  background-color: gainsboro;
+}
+
+#contentProj table td {
+  padding-left: 1em;
 }
