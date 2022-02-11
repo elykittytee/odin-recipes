@@ -261,8 +261,8 @@ function atkPois(){
   var ground = document.getElementById('sGrnd');
   var psychic = document.getElementById('sPsych');  
 
-  grass.style.display="block";
-  fairy.style.display="block";
+  ground.style.display="block";
+  psychic.style.display="block";
 
   //show weak
   //fight poison bug grass fairy
