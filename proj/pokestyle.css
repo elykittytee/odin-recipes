@@ -1,3 +1,13 @@
+/* which version? */
+body#attacking{
+  background-color: DodgerBlue;
+}
+
+body#defending{
+  background-color: Crimson;
+}
+
+
 /* pokemon type choice*/
 #choice {
   width: 5em;
@@ -52,7 +62,7 @@ button#fire {
 
 button#water {
   background-color: LightSkyBlue;
-  color: Azure;
+  color: Navy;
   border-color: PowderBlue;
 }
 
@@ -64,7 +74,7 @@ button#grass {
 
 button#elec {
   background-color: Gold;
-  color: Beige;
+  color: Sienna;
   border-color: Chatreuse;
 }
 
