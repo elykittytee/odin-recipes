@@ -164,7 +164,7 @@ function atkElec(){
   //flying steel electric
   var fly = document.getElementById('wFly');
   var steel = document.getElementById('wSteel');
-  var elec = document.getElementById('wElec');
+  var elec = document.getElementById('wElectric');
 
   fly.style.display="block";
   steel.style.display="block";
@@ -266,16 +266,17 @@ function atkPois(){
 
   //show weak
   //fight poison bug grass fairy
+  var fight = document.getElementById('wFight');
+  var poison = document.getElementById('wPois');
+  var bug = document.getElementById('wBug');
+  var grass = document.getElementById('wGrass');
+  var fairy = document.getElementById('wFairy');
 
-  var pois = document.getElementById('wPois');
-  var grnd = document.getElementById('wGrnd');
-  var rock = document.getElementById('wRck');
-  var ghost = document.getElementById('wGhst');
-
-  pois.style.display="block";
-  grnd.style.display="block";
-  rck.style.display="block";
-  ghost.style.display="block";    
+  fight.style.display="block";
+  poison.style.display="block";
+  bug.style.display="block";
+  grass.style.display="block";    
+  fairy.style.display="block"; 
 
   //NO EFFECT
   var noEffect = document.querySelector('.noEffect');  
@@ -295,26 +296,22 @@ function atkGrnd() {
 
   //show strong
   //water grass ice 
-  var fire = document.getElementById('sFire');
-  var elec = document.getElementById('sElec');
-  var pois = document.getElementById('sPois');
-  var rck = document.getElementById('sRck');
-  var steel = document.getElementById('sSteel');
+  var water = document.getElementById('sWater');
+  var grass = document.getElementById('sGrass');
+  var ice = document.getElementById('sIce');
 
 
-  fire.style.display="block";
-  elec.style.display="block";
-  pois.style.display="block";
-  rck.style.display="block";
-  steel.style.display="block";
+  water.style.display="block";
+  grass.style.display="block";
+  ice.style.display="block";
 
   //show weak
   //poison rock
-  var grass = document.getElementById('wGrass');
-  var bug = document.getElementById('wBug');
+  var poison = document.getElementById('wGrass');
+  var rck = document.getElementById('wBug');
 
-  grass.style.display="block";
-  bug.style.display="block";
+  poison.style.display="block";
+  rck.style.display="block";
 
   //NO EFFECT
   //electric
@@ -523,7 +520,7 @@ function atkDrag() {
   var fire = document.getElementById('wFire');
   var water = document.getElementById('wWater');
   var grass = document.getElementById('wGrass');
-  var elec = document.getElementById('wElec');
+  var elec = document.getElementById('wElectric');
 
   fire.style.display="block";
   water.style.display="block";
