@@ -253,7 +253,7 @@ function atkFight(){
   var fly = document.getElementById('wFly');
   var psychic = document.getElementById('wPsych');
   var bug = document.getElementById('wBug');
-  var fairy = document.getElementById('sFairy');
+  var fairy = document.getElementById('wFairy');
     
 
   pois.style.display="block";
